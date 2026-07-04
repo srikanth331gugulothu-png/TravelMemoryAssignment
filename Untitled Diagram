@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="mn3H5CyU9xWjvZA0lM87">
+    <mxGraphModel dx="1784" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9JOtiZJDlf2EvGztyPYd-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="user" vertex="1">
+          <mxGeometry height="30" width="120" x="-30" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="9JOtiZJDlf2EvGztyPYd-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="90" y="250" as="sourcePoint" />
+            <mxPoint x="150" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JOtiZJDlf2EvGztyPYd-13" edge="1" parent="1" source="9JOtiZJDlf2EvGztyPYd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9JOtiZJDlf2EvGztyPYd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JOtiZJDlf2EvGztyPYd-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span&gt;Cloudflare   |&lt;/span&gt;&lt;br&gt;&lt;span&gt;                    | DNS + SSL/CDN&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="9JOtiZJDlf2EvGztyPYd-14" edge="1" parent="1" source="9JOtiZJDlf2EvGztyPYd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9JOtiZJDlf2EvGztyPYd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JOtiZJDlf2EvGztyPYd-16" edge="1" parent="1" source="9JOtiZJDlf2EvGztyPYd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9JOtiZJDlf2EvGztyPYd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JOtiZJDlf2EvGztyPYd-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AWS Application Load Balancer (ALB)" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="9JOtiZJDlf2EvGztyPYd-17" edge="1" parent="1" source="9JOtiZJDlf2EvGztyPYd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;font&gt;EC1 Instance&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;React Frontend | &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;Nginx Reverse Proxy | &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;Node.js Backend | &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;| PM2 |&lt;/font&gt;&lt;/p&gt;" link="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;EC1 Instance&lt;/p&gt;&lt;p&gt;React Frontend | &lt;/p&gt;&lt;p&gt;Nginx Reverse Proxy | &lt;/p&gt;&lt;p&gt;Node.js Backend | &lt;/p&gt;&lt;p&gt;| PM2 |&lt;/p&gt;" id="9JOtiZJDlf2EvGztyPYd-6">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1">
+            <mxGeometry height="60" width="120" x="440" y="110" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9JOtiZJDlf2EvGztyPYd-18" edge="1" parent="1" source="9JOtiZJDlf2EvGztyPYd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;EC2 Instance&lt;/p&gt;&lt;p&gt;React Frontend | &lt;/p&gt;&lt;p&gt;Nginx Reverse Proxy | &lt;/p&gt;&lt;p&gt;Node.js Backend | &lt;/p&gt;&lt;p&gt;| PM2 |&lt;/p&gt;" link="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;EC2 Instance&lt;/p&gt;&lt;p&gt;React Frontend | &lt;/p&gt;&lt;p&gt;Nginx Reverse Proxy | &lt;/p&gt;&lt;p&gt;Node.js Backend | &lt;/p&gt;&lt;p&gt;| PM2 |&lt;/p&gt;" id="9JOtiZJDlf2EvGztyPYd-7">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1">
+            <mxGeometry height="60" width="120" x="440" y="310" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9JOtiZJDlf2EvGztyPYd-19" edge="1" parent="1" source="9JOtiZJDlf2EvGztyPYd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9JOtiZJDlf2EvGztyPYd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JOtiZJDlf2EvGztyPYd-8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MongoDB Atlas   Database" vertex="1">
+          <mxGeometry height="80" width="60" x="580" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="9JOtiZJDlf2EvGztyPYd-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;meta charset=&quot;utf-8&quot;&gt;CloudWatch + Auto Scaling" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
